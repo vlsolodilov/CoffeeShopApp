@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RegularText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:fontFamily">@font/sf_ui_display_regular</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="SmallText" parent="RegularText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/brown</item>
+    </style>
+
+    <style name="SecondaryText" parent="RegularText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:fontFamily">@font/sf_ui_display_bold</item>
+        <item name="fontWeight">700</item>
+    </style>
+
+    <style name="LargeText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:fontFamily">@font/sf_ui_display_medium</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="ToolBar" parent="Widget.Material3.Toolbar">
+        <item name="titleCentered">true</item>
+        <item name="titleTextAppearance">@style/TitleText</item>
+    </style>
+
+    <style name="AppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/bg</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="EditTextBorder">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">47dp</item>
+    </style>
+
+    <style name="TextInputLayoutRoundedBorder" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearance">@style/EditTextBorder</item>
+        <item name="boxStrokeColor">@color/text_input_stroke_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="errorEnabled">true</item>
+        <item name="cursorColor">@color/secondary_text</item>
+    </style>
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:indeterminateTint">@color/brown</item>
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/button_background</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:fontFamily">@font/sf_ui_display_bold</item>
+    </style>
+
+</resources>

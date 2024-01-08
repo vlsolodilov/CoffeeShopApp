@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CoffeeShopApp</string>
+    <string name="register">Регистрация</string>
+    <string name="email">e-mail</string>
+    <string name="email_hint">example@example.ru</string>
+    <string name="password">Пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="entrance">Вход</string>
+    <string name="enter">Войти</string>
+    <string name="no_account">Нет аккаунта? Зарегистрироваться</string>
+    <string name="empty_text_field">Пустое поле</string>
+    <string name="password_dont_match">Пароли не совпадают</string>
+    <string name="nearest_cafes">Ближайшие кофейни</string>
+    <string name="on_map">На карте</string>
+    <string name="cafe_distance_m">%d м от вас</string>
+    <string name="cafe_distance_km">%d км от вас</string>
+    <string name="map">Карта</string>
+    <string name="menu">Меню</string>
+    <string name="go_to_payment">Перейти к оплате</string>
+    <string name="coffee_price">%d руб</string>
+    <string name="your_order">Ваш заказ</string>
+    <string name="grateful_message">Время ожидания заказа 15 минут!\nСпасибо, что выбрали нас!</string>
+    <string name="pay">Оплатить</string>
+    <string name="error">Ошибка</string>
+    <string name="error_message">Случилась какая-то ошибка\nПопробуем снова?</string>
+    <string name="try_again">Попробовать</string>
+    <string name="permission_required">Необходимо разрешение</string>
+    <string name="permission_explanation_message">Для определения расстояния до ближайших кофеин</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+</resources>
